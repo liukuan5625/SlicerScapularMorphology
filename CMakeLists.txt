@@ -8,8 +8,8 @@ set(EXTENSION_HOMEPAGE "https://github.com/liukuan5625/SlicerScapularMorphology"
 set(EXTENSION_CATEGORY "Segmentation")
 set(EXTENSION_CONTRIBUTORS "Kuan Liu (Ruijin Hospital, Shanghai Jiaotong University School of Medicine)")
 set(EXTENSION_DESCRIPTION "Scapular Morphology for glenoid segmentation and landmarks location.")
-set(EXTENSION_ICONURL "https://github.com/liukuan5625/SlicerScapularMorphology/blob/main/ScapularMorphology.png")
-set(EXTENSION_SCREENSHOTURLS "https://github.com/liukuan5625/SlicerScapularMorphology/blob/main/Screenshot01.png")
+set(EXTENSION_ICONURL "https://raw.githubusercontent.com/liukuan5625/SlicerScapularMorphology/main/ScapularMorphology.png")
+set(EXTENSION_SCREENSHOTURLS "https://raw.githubusercontent.com/liukuan5625/SlicerScapularMorphology/main/Screenshot01.png")
 set(EXTENSION_DEPENDS "PyTorch")
 
 #-----------------------------------------------------------------------------
