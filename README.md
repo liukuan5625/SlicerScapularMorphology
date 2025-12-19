@@ -26,4 +26,5 @@ Optional(Advanced): select IS range to modify glenoid inference area.
 Select "Landmark heatmap" will output five landmarks heatmap (TS, AI, PC, AC, AA).
 Select "force to use cpu" to inference model on cpu.
 
-If the model weights fail to download, visit https://github.com/liukuan5625/SlicerScapularMorphology/releases to manually download the weights and sample files, and place them in the folder ./ScapularMorphology/Scripts.
+We provide sample files at https://github.com/liukuan5625/SlicerScapularMorphology/releases (sample_humerus.nii.gz, sample_scapula.nii.gz, sample_raw.nii.gz)
+If the model weights fail to download, visit https://github.com/liukuan5625/SlicerScapularMorphology/releases to manually download the weights, and place them in the folder ./ScapularMorphology/Scripts.
