@@ -27,4 +27,5 @@ Select "Landmark heatmap" will output five landmarks heatmap (TS, AI, PC, AC, AA
 Select "force to use cpu" to inference model on cpu.
 
 We provide sample files at https://github.com/liukuan5625/SlicerScapularMorphology/releases (sample_humerus.nii.gz, sample_scapula.nii.gz, sample_raw.nii.gz)
-If the model weights fail to download, visit https://github.com/liukuan5625/SlicerScapularMorphology/releases to manually download the weights, and place them in the folder ./ScapularMorphology/Scripts.
+
+If the model weights fail to download, visit https://github.com/liukuan5625/SlicerScapularMorphology/releases to manually download the weights (model_2d.pt, model_3d.pt), and place them in the folder ./ScapularMorphology/Scripts.
