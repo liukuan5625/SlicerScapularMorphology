@@ -12,14 +12,14 @@ Corresponding training and inference codes are accessible at [Scapular-Morpholog
 
 ## Dependencies
 This module requires the Pytorch extension which can be installed via the Extension Manager. 
-Python dependencies such as MONAI will be automaically installed by the module if not available.
+Python dependencies such as MONAI will be automatically installed by the module if not available.
 The module internally downloads pretrained model weights to intialize models.
 
 
 ## Tutorial
 - Load the shoulder CT scan.
 - Create SCAPULA and HUMERUS masks using Segment Editor. Apply a threshold tool with an intensity value > 226 (this parameter can be adjusted as needed). Subsequently, use the Islands tool to isolate and create the scapula and humerus masks.
-- Open ScapularMorphology plugin and select scapula segmentation and humerus segmentation. Press 'Apply' button and wait for the results.
+- Open ScapularMorphology module and select scapula segmentation and humerus segmentation. Press 'Apply' button and wait for the results.
 
 
 Optional(Advanced): select IS range to modify glenoid inference area. 
